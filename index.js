@@ -19,7 +19,7 @@ Items.forEach((item) => {
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
-  const newItem = input.value.trim();
+  const newItem = input.value;
 
   if (newItem !== '') {
     const listItem = document.createElement('li');
